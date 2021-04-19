@@ -11,7 +11,7 @@ const Topbar = styled(FlexRowContainer)`
 `;
 const AppBar = () => (
   <Topbar>
-    <H1>AQI Data</H1>
+    <H1>AQI Index App</H1>
   </Topbar>
 );
 
