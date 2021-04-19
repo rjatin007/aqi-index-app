@@ -21,6 +21,10 @@ const ColorBlock = styled.div`
 const Legend = () => {
   return (
     <ItemsContainer>
+        <Item key="key">
+          <ColorBlock color="#000" />{" "}
+        <em>{"no current updated data".toUpperCase()}</em>
+      </Item>
       {Object.keys(aqiColors).map((key) => (
         <Item>
           <ColorBlock color={aqiColors[key]} /> <em>{key.toUpperCase()}</em>
