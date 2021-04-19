@@ -9,3 +9,6 @@ App tells about the cities and updates them at real time.
 3. npm start
 
 Head to https://localhost:8000
+
+# Demo
+https://aqi-index-app.herokuapp.com/
