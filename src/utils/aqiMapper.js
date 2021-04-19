@@ -8,7 +8,7 @@ const getQualityFromAqi = (aqi) => {
 };
 
 export const getFormattedData = (updatedDataMap) => {
-  console.log("hello", updatedDataMap);
+  
   return Object.keys(updatedDataMap).map((el) => ({
     name: updatedDataMap[el]?.city,
     aqi: updatedDataMap[el]?.aqi.toFixed(2),
