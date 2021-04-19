@@ -17,7 +17,6 @@ const ChartContainer = styled(FlexColumnContainer)`
 `;
 const Cities = ({ cities }) => {
   const data = getFormattedData(cities);
-  console.log("data", data);
   return (
     <ChartContainer>
       <BarChart
